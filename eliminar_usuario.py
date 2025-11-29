@@ -22,3 +22,5 @@ for fila in filas:
 with open(nombre_archivo, 'w', newline='') as f:
     escritor_csv = csv.writer(f)
     escritor_csv.writerows(filas)
+    
+
